@@ -1,7 +1,7 @@
 <template>
 <div>
   <!-- <Tutorial/> -->
-  <product />
+  <product :products="products" />
 </div>
 </template>
 
