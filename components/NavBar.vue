@@ -2,7 +2,8 @@
     <div>
   <b-navbar type="dark" variant="dark">
     <b-navbar-nav>
-      <b-nav-item href="#">eShop</b-nav-item>
+      <nuxt-link to="/" style="text-decoration: none;color: rgba(255, 255, 255, 0.5);padding:0.5rem 1rem">Eshop</nuxt-link>
+      <!-- <b-nav-item href="/">Eshop</b-nav-item> -->
       <b-nav-item href="#">Sign in</b-nav-item>
       <b-nav-item href="#">Cart</b-nav-item>
 
