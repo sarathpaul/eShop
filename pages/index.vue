@@ -1,7 +1,7 @@
 <template>
 <div>
   <!-- <Tutorial/> -->
-  <product :products="products" />
+   <NuxtLink to="/products"><h1>Explore Our Products</h1></NuxtLink>
 </div>
 </template>
 
