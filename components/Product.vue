@@ -2,6 +2,7 @@
 <b-container class="mt-4" fluid>
     <b-row>
       <b-col v-for="prdt in products" :key="prdt.key" cols="3">
+        <nuxt-link style="text-decoration: none;color: inherit" :to="{path:'/products/' + prdt.id}">
         <b-card
           :title="prdt.name"
           img-src="https://picsum.photos/600/300/?image=25"
@@ -13,8 +14,9 @@
         >
           <b-card-text>₹ {{prdt.price}}</b-card-text>
 
-          <b-button href="#" variant="success">Buy</b-button>
+          <!-- <b-button href="#" variant="success">Buy</b-button> -->
         </b-card>
+        </nuxt-link>
       </b-col>
     </b-row>
     </b-container>
